@@ -1,0 +1,59 @@
+
+.imagen1
+
+{
+    background-image: url(imagen1.jpg);
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.circulo
+{
+
+    position: absolute;
+    top: 65%;
+    left: 31%;
+    width: 30px;
+    height: 30px;
+    background-color: rgb(118, 4, 4);
+    border-radius: 50%;
+    margin: auto;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+ 
+
+  
+}
+
+.leyenda
+
+{
+    background-color: rgb(137, 4, 4);
+}
+
+
+.imagen2
+
+{
+    background-image: url(imagen.3\ terror.gif);
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+ 
+
+}
+.circulo
+
+{
+    animation: move 2s linear infinite;
+  }
+  
+  @keyframes move {
+    from {
+      transform: translate(0, 0);
+    }
+    to {
+      transform: translate(200px, 200px);
+    }
+  }
